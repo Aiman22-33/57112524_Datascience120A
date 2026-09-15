@@ -1,141 +1,139 @@
-# Student Performance Analysis
+Analysis of Student Learning Behavior and Academic Performance
 
-## 📌 Project Overview
+Project Overview
 
-This project focuses on analyzing student performance data to identify the key factors that influence students' academic outcomes.
+This project analyzes student learning behavior and academic performance using a Kaggle dataset containing 14,003 student records and 16 attributes.
 
-The analysis will explore relationships between students' academic performance and different factors such as study habits, attendance, parental background, and other available characteristics in the dataset.
+The analysis focuses on relationships between learning habits, engagement, resources, motivation, stress, and academic performance.
 
-The project uses **Python, Pandas, NumPy, Matplotlib, and Seaborn** for data analysis and visualization.
+Objectives
 
----
+Understand and prepare the student performance dataset
 
-## 🎯 Objectives
+Analyze student learning and behavioral patterns
 
-The main objectives of this project are:
+Investigate relationships between learning factors and exam performance
 
-* Analyze the overall performance of students.
-* Identify factors that may influence academic performance.
-* Explore relationships between different student characteristics and scores.
-* Perform data cleaning and preprocessing.
-* Create meaningful visualizations to communicate findings.
-* Generate insights that could help understand patterns in student performance.
+Examine the role of attendance, study hours, assignment completion, motivation, and stress
 
----
+Identify factors showing meaningful relationships with academic performance
 
-## 📊 Dataset
+Present findings using statistical analysis and visualizations
 
-The dataset used in this project is:
+Research Questions
 
-**`student_performance.csv`**
+How does study time relate to students' academic performance?
 
-The dataset contains information about students and their academic performance.
+What relationship exists between attendance and exam scores?
 
-The dataset will be explored and prepared before performing the analysis to identify:
+Does assignment completion show an association with academic performance?
 
-* Missing values
-* Duplicate records
-* Data types
-* Distributions of variables
-* Relationships between variables
-* Performance patterns
+How are motivation and stress levels associated with student performance?
 
----
+Which learning and behavioral factors show the strongest relationship with academic performance?
 
-## 🛠️ Tools & Technologies
+Dataset
 
-* **Python**
-* **Pandas** – Data manipulation and analysis
-* **NumPy** – Numerical operations
-* **Matplotlib** – Data visualization
-* **Seaborn** – Statistical visualization
-* **Jupyter Notebook / Kaggle Notebook**
-* **GitHub** – Project version control and documentation
+Source: Kaggle – Student Performance and Learning Behavior Dataset
 
----
+Original data: 14,003 records, 16 attributes
 
-## 🔍 Project Workflow
+After cleaning: 12,469 records
 
-The project follows the following analytical process:
+The dataset contains variables related to study hours, attendance, resources, extracurricular activities, motivation, internet access, gender, age, learning style, online courses, discussions, assignment completion, exam score, educational technology usage, stress level, and final grade.
 
-1. **Data Collection**
+Methodology
 
-   * Obtain the student performance dataset from Kaggle.
+The project follows this workflow:
 
-2. **Data Understanding**
+Data Collection → Data Understanding → Data Cleaning → Exploratory Data Analysis → Correlation Analysis → Statistical Analysis → Regression → Visualization → Findings & Conclusion
 
-   * Examine the structure, variables, and basic statistics of the dataset.
+Analysis Methods
 
-3. **Data Cleaning**
+Descriptive statistics
 
-   * Handle missing values and duplicates.
-   * Check and correct data types where necessary.
+Exploratory Data Analysis (EDA)
 
-4. **Exploratory Data Analysis (EDA)**
+Correlation analysis
 
-   * Analyze distributions and relationships between variables.
-   * Identify important patterns and trends.
+ANOVA
 
-5. **Data Visualization**
+Tukey HSD post-hoc testing
 
-   * Create charts and graphs to communicate the findings clearly.
+Multiple linear regression
 
-6. **Analysis & Insights**
+Power BI visualization
 
-   * Identify the major factors associated with student performance.
-   * Summarize the key findings.
+Tools & Technologies
 
-7. **Conclusion**
+Python
 
-   * Present the overall conclusions and possible implications of the analysis.
+Pandas
 
----
+NumPy
 
-## 📈 Expected Outcomes
+Matplotlib
 
-The project aims to provide a better understanding of student performance and the factors associated with academic outcomes.
+Seaborn
 
-The analysis will produce:
+SciPy
 
-* Descriptive statistics
-* Data visualizations
-* Correlation analysis
-* Key findings and patterns
-* Conclusions based on the analyzed data
+Statsmodels
 
----
+Scikit-learn
 
-## 📁 Repository Structure
+Kaggle Notebook
 
-```text
-Student-Performance-Analysis/
-│
-├── data/
-│   └── student_performance.csv
-│
-├── docs/
-│   └── proposal
-│
-├── notebooks/
-│   └── student_performance_analysis.ipynb
-│
-├── README.md
-│
-└── requirements.txt
-```
+Power BI
 
----
+GitHub
 
-## 🚧 Project Status
+PowerPoint
 
-**Currently in development**
+Key Findings
 
-The dataset has been selected and the project structure is being prepared. Data cleaning, exploratory analysis, visualization, and interpretation will be completed as part of the project.
+The cleaned dataset contains 12,469 unique records.
 
----
+Stress level shows a statistically significant difference in average exam scores, although the effect size is very small.
 
-## 👤 Author
+Assignment completion, discussions, and stress level show statistically significant relationships with exam performance in the analysis.
 
-**Mohammed Aiman Sadhik**
+Study hours and attendance show very weak linear relationships with exam score in this dataset.
 
-Data Analytics Project
+Multiple linear regression has weak predictive performance, with an R² of approximately 0.006.
+
+Project Files
+
+Data/
+├── student_performance.csv
+└── cleaned/
+    └── student_performance_cleaned.csv
+
+Documentation/
+├── Project_Proposal.docx
+├── Project_Gantt_Chart.png
+└── Project_Mindmap.png
+
+figures/
+└── powerbi_dashboard.png
+
+cleaning/
+correlation/
+eda/
+regression/
+statistical_analysis/
+
+Student_Performance_Analysis.ipynb
+README.md
+
+Dashboard
+
+An interactive Power BI dashboard was created to visualize student performance and learning behavior.
+
+Limitations
+
+The analysis is based on the available Kaggle dataset. The observed relationships are weak for many variables, so the results should not be interpreted as proof of causation or as a strong predictive model.
+
+Project Deadline
+
+Final submission: 16 September 2026
