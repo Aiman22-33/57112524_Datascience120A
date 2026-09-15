@@ -146,6 +146,7 @@ An interactive Power BI dashboard was created to present:
 - Exam score by final grade
 
 The dashboard also includes filters for **Motivation** and **StressLevel**.
+https://app.powerbi.com/groups/me/reports/69553689-79b9-4bbe-801c-03ebe2c0b831/c8b3612c4200c957ead0?experience=power-bi
 
 ## Project Structure
 
@@ -173,8 +174,5 @@ The dashboard also includes filters for **Motivation** and **StressLevel**.
 │
 ├── Student_Performance_Analysis.ipynb
 └── README.md
-## Power BI Dashboard
 
-An interactive Power BI dashboard was created to visualize the main findings of the project.
 
-**Power BI Dashboard:** [View the Interactive Dashboard][https://app.powerbi.com/groups/me/reports/69553689-79b9-4bbe-801c-03ebe2c0b831/c8b3612c4200c957ead0?experience=power-bi]
